@@ -1,16 +1,73 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  
+}
 #travelblog {position:relative; top:100px;}
 #carousel-example-generic {margin: 0 auto;
     max-width: 80em; height: 400px;}
+#navbar2 {background-color: #ffcb00; border-radius: 0px; border: 0px;
+position:absolute; top:250px; left:0px;width:100%;  }
 #userinfo {position:absolute; top:15px; right:100px; color:white;}
 .jumbotron {background-color: #00355f; height:300px;}
 .display-3 {color:#fed700;}
 .blog {color:white;}
 .blog, .display-3 {font-size: 50px;}
 .jumbotron-fluid {line-height: 0.8; color:white; text-align:center;}
-.carousel-inner,.item {margin: 0 auto;
-    max-width: 80em; height:400px;}
-
+.carousel-inner{margin: 0 auto; max-width: 80em; height:400px;}
+.item_active, .item {margin: 0 auto; max-width: 80em; height:400px;}
+.navbar-fixed-top {background-color: #00355f; border:0px;}
 
 
