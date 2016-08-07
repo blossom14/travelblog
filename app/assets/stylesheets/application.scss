@@ -1,0 +1,16 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+#travelblog {position:relative; top:100px;}
+#carousel-example-generic {margin: 0 auto;
+    max-width: 80em; height: 400px;}
+#userinfo {position:absolute; top:15px; right:100px; color:white;}
+.jumbotron {background-color: #00355f; height:300px;}
+.display-3 {color:#fed700;}
+.blog {color:white;}
+.blog, .display-3 {font-size: 50px;}
+.jumbotron-fluid {line-height: 0.8; color:white; text-align:center;}
+.carousel-inner,.item {margin: 0 auto;
+    max-width: 80em; height:400px;}
+
+
+
