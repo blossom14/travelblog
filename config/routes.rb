@@ -4,7 +4,11 @@ Rails.application.routes.draw do
         registrations: 'users/registrations'
       }
   
-  resources :posts
+  resources :posts do
+  	collection do
+  	get 'okinawa'
+  end
+end
   root 'welcome#index'
   post "posts/new"
 

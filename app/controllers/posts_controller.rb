@@ -18,6 +18,8 @@ class PostsController < ApplicationController
 		@posts = Post.all
 	end
 
+	def okinawa
+	end
 private
 	def post_params
 		params.require(:post).permit(:title, :text, :photo)
