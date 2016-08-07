@@ -53,21 +53,22 @@ body {
   line-height: 30px;
   text-shadow: none;
   color: #333;
-  
 }
-#travelblog {position:relative; top:100px;}
+#travelblog {position:relative; top:80px; font-weight:bold;}
 #carousel-example-generic {margin: 0 auto;
-    max-width: 80em; height: 400px;}
+    max-width: 80em; height: 400px; position:relative; top:20px;}
 #navbar2 {background-color: #ffcb00; border-radius: 0px; border: 0px;
-position:absolute; top:250px; left:0px;width:100%;  }
-#userinfo {position:absolute; top:15px; right:100px; color:white;}
+position:absolute; top:250px; left:0px;width:100%;text-align:center;}
+#userinfo {position:absolute; top:15px; right:160px; color:white;}
 .jumbotron {background-color: #00355f; height:300px;}
 .display-3 {color:#fed700;}
 .blog {color:white;}
 .blog, .display-3 {font-size: 50px;}
 .jumbotron-fluid {line-height: 0.8; color:white; text-align:center;}
-.carousel-inner{margin: 0 auto; max-width: 80em; height:400px;}
-.item_active, .item {margin: 0 auto; max-width: 80em; height:400px;}
 .navbar-fixed-top {background-color: #00355f; border:0px;}
-
+.carousel-inner, .item {margin: 0 auto;
+    max-width: 80em; height: 400px;}
+#logout {position:absolute; right:100px;top:15px;}
+#apple {position:relative; left:300px;}
+.col-lg-12 {border-top: 6px solid black; max-width: 80em; margin-top:40px;position:relative; left:20px;}
 
